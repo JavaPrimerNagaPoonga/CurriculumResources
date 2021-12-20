@@ -1,0 +1,23 @@
+Java Compiler. 
+
+Java is knonw for being WORA, wwrite once run anywhere. 
+This is because of the JVM. 
+
+The compiler, that we get from the JDK will turn source code (what we write) into bytecode. 
+
+That bytecode can be executed on any system, that has a JVM. The JVM will translate the 
+	bytecode into machine specific code.  
+
+
+
+JDK: 
+	Java Development Kit - this is what we need create and run Java applications. 
+	Contains: JRE (Java Runtime Environment), compiler, and lots of other useful stuff. 
+	
+JRE: 
+	Java Runtime environment - this is what you need to run Java applications. 
+	Contains: JVM (Java Virtual Machine) , Core Libraries 
+
+JVM: 
+	Java Virtual Machine - this will translate bytecode into machine code. 
+	
