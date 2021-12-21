@@ -1,12 +1,15 @@
 package com.revature;
 
+import java.util.List;
+
 import com.revature.structures.StringStorage;
+import com.revature.structures.StringStorageImpl;
 
 public class MainDriver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello Data Structures!");
+//		System.out.println("Hello Data Structures!");
 		
 		/**
 		 * 
@@ -36,12 +39,12 @@ public class MainDriver {
 		int[] intArray = {1,2,5,6,7,1};
 		String[] stringArray = new String[10];
 		
-		System.out.println(intArray.length);
+//		System.out.println(intArray.length);
 
 		Object o = new Object();
 		
-		System.out.println(o);
-		System.out.print(intArray);
+//		System.out.println(o);
+//		System.out.print(intArray);
 		
 		
 		
@@ -65,8 +68,20 @@ public class MainDriver {
 		 */
 		
 		
+		//StringStorage is mutable.
 		
 		StringStorage store = new StringStorageImpl();
+		
+		store.add("Hello");
+		store.add("another hello");
+//		store.add("another hello");
+//		store.add("another hello");
+//		store.add("another hello");
+//		store.add("another hello");
+//		store.add("another hello");
+		
+	
+		store.getAll();
 		
 		
 		
