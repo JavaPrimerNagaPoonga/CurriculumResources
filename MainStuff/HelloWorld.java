@@ -6,7 +6,37 @@ import mathstuff.specialstuff.Calculator;
 class HelloWorld {
 	
 	//main method
-	public static void main(String[] args){
+	public static void main(String[] kiwi){
+
+		//if processCalc was not static 
+		//we would need to instantiate the class
+
+		int[] intArray = new int[kiwi.length];
+
+		for(int i = 0; i < intArray.length; i++){
+
+			intArray[i] = Integer.parseInt(kiwi[i]);
+		}
+
+		int total = CalculatorSolution.processCalc(intArray);
+
+		System.out.println(total);
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		//In Java , typically we need to instantiate an object to use the class' methods.
 
@@ -15,16 +45,16 @@ class HelloWorld {
 		//	System.out.print(args[i] + " ");
 		//};
 
-		String stringA = args[0];
-		String stringB = args[1];
+		//String stringA = args[0];
+		//String stringB = args[1];
 
-		System.out.println(stringA + stringB);
+		//System.out.println(stringA + stringB);
 
 
-		int a = Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);
+		//int a = Integer.parseInt(args[0]);
+		//int b = Integer.parseInt(args[1]);
 		
-		System.out.println(a + b);
+		//System.out.println(a + b);
 
 		
 
