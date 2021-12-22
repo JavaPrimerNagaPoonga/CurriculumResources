@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.revature</groupId>
+  <artifactId>OOPReview</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- 
+  		From the JDK, we have the JRE (Java Runtime environemnt)
+  		
+  		JRE, contains the core libraries that we need to run a basic JAva project.
+   
+   		In Maven, when we use a simple archetype, we need to configure a lot of things. 
+   		Include the JRE version that we are going to utilise. 
+   		
+   		pom.xml - project object model.eXtensile markeup language
+   
+   -->
+   
+   <properties>
+   		<maven.compiler.source>1.8</maven.compiler.source>
+   		<maven.compiler.target>1.8</maven.compiler.target>
+   </properties>
+   
+   <dependencies>
+  
+	
+   	
+   </dependencies>
+   
+</project>
